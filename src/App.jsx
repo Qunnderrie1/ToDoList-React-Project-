@@ -24,15 +24,17 @@ class App extends React.Component {
   }
 
   render() {
-    console.log(this.state.list);
 
     const changeText = (event) => {
       this.setState({ text: event.target.value });
     };
     return (
+      
+      <div className="mainContainer">
+      <Header />
       <div className="App container-fluid">
-        <Header />
-        <div className="appInnerContainer container">
+
+        <div className="appInnerContainer container shadow-lg">
           <form method={this.onSubmit}>
             <input
               className="form-control"
@@ -56,6 +58,10 @@ class App extends React.Component {
           </form>
         </div>
       </div>
+
+
+      </div>
+     
     );
   }
 }

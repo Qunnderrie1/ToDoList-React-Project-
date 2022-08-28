@@ -1,4 +1,15 @@
 
+body{
+
+  background-color: rgb(234, 234, 234);
+
+}
+.mainContainer{
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  font-family: 'open sans ';
+}
 .App {
   display: flex;
   align-items: center;
@@ -7,19 +18,21 @@
   text-align: center;
   margin: 0;
   width: 100%;
-  padding:0px;
+  padding: 10px;
   font-family: 'open sans ';
 
 }
 .appInnerContainer{
+  background-color: white;
   align-self: center;
-  padding: 20px 20px;
-  margin-top: 50px;
+  padding: 20px;
+  margin: 50px 10px;
   max-width: 400px;
+  border-radius: 8px;
 
 }
 input{
-  margin-top: 100px;
+  margin-top: 20px;
 }
 ul{
   margin-top: 100px;
@@ -29,13 +42,17 @@ li{
   list-style-type: none;
   padding-top: 10px;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
 
 }
 
 
-button{
-  width: 200px;
+.btn{
+  width: 100%;
   margin-top: 40px;
+  background-color: #002B5B;
+}
+.btn:hover{
+  background-color: #002B5B;
 }

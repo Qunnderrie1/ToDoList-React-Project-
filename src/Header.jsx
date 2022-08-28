@@ -7,7 +7,7 @@ class Header extends Component {
     }
     render(){
         const headerContainer = {
-            backgroundColor: "purple",
+            backgroundColor: "#002B5B",
             width : "100%",
             padding: "20px",
             color: "white",
