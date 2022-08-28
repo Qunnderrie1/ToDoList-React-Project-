@@ -1,0 +1,40 @@
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  padding:0px;
+  font-family: 'open sans ';
+
+}
+.appInnerContainer{
+  align-self: center;
+  padding: 20px;
+  margin-top: 50px;
+
+}
+input{
+  margin-top: 100px;
+}
+ul{
+  margin-top: 100px;
+  padding:0px;
+}
+li{
+  list-style-type: none;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+
+button{
+  width: 200px;
+  margin-top: 40px;
+}
